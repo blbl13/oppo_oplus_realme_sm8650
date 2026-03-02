@@ -121,7 +121,7 @@ jobs:
           aria2c -s16 -x16 -k1M https://github.com/realme-pineapple-devs/android_kernel_common_realme_sm8635/archive/refs/heads/oneplus/sm7675_v_15.0.0_ace_3v.zip -o common.zip && 
           unzip -q common.zip && 
           # 注意：目录名根据压缩包URL推断，如果构建失败，请检查此处的目录名是否正确。
-          mv "android_kernel_common_oneplus_sm8635-oneplus-ssm7675_v_15.0.0_ace_3v" common &&
+          mv "android_kernel_common_realme_sm8635-oneplus-ssm7675_v_15.0.0_ace_3v" common &&
           rm -rf common.zip &
           
           echo "正在克隆llvm-Clang20工具链..." &&
